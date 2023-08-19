@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>	lists in dom</title>
+</head>
+<body>
+	<ul>
+		<li>AEC</li>
+		<li>ACET</li>
+		<li>ACES</li>
+	</ul>
+	<script type="text/javascript">
+		let list=document.getElementsByTagName('li');
+		console.log(list);
+		list[0].innerText="Aditya Engineering College";
+		list[1].style.color="red";
+		list[2].style.color="blue"
+	</script>
+
+</body>
+</html>

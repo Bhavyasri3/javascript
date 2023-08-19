@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>functions intro</title>
+</head>
+<body>
+      <script type="text/javascript">
+      	//function keyword function name(arg1,arg2,........ argn)
+      	// {
+      	 	//statements
+      	 	//return statements
+      	// }
+      	// 1.normal function with no paramenters
+      	// function a(){
+      	//  	alert("Bhavya")
+      	// document.write("js function")
+      	// }
+      	// a()// function calling
+
+      	// 2.function with one paramenter
+      	// function get_name(name)
+      	//  {
+      	//    document.write(name)	;
+      	// }
+      	// get_name("bhavya")
+
+      	// function var1(a)
+      	//  {
+      	//    document.write(a);
+      	// }
+      	//  var1("10")
+
+      	// var a =prompt("Scan ur id");
+      	// function id(rollno) {
+      	// 	document.write(rollno)
+      	// }
+      	// id(a)
+
+
+      	// // 3.a function with 2 arguments without return type
+      	// function sum(a=0,b=0){
+      	// 	document.write(a+b+"<br>")
+      	// 	document.write(a-b+"<br>")
+        //   document.write(a*b+"<br>")
+        //   document.write(a/b+"<br>")
+
+      	// }
+      	// sum(10,20)
+          
+         //4)anonymous function is a func without having a function name 
+      	   //  var x=function(a,b){
+      	   // 	return a*b
+      	   // }
+           // document.write(x(2,3))
+
+      	// var x=function(a){
+      	//    	return a*a*a
+      	//    }
+        //    document.write(x(5))
+
+        //5).1 arrow function:es6, "=>",never use function keyword 
+        //  add=(a,b)=>{
+        // 	document.write(a+b)
+        // }
+        // add(10,20)
+
+        // 5.2) with one arguments
+          // get_name=a=> 
+          // {document.write(a)}
+          // get_name("bhavya")
+
+        //5.3) without passing any arguments
+          get_name=()=>
+          {
+          	document.write("bhavya")
+          }
+          get_name()
+      </script>
+</body>
+</html>
